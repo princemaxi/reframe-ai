@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.eggs/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.manifest
+*.spec
+
+# Virtual env
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+*.pid
+*.seed
+*.cover
+coverage/
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+.coverage
+nosetests.xml
+coverage.xml
+
+# Databases and cache
+db.sqlite3
+*.db
+*.sqlite3
+cache/
+__cache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+app/cache/
