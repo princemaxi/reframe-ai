@@ -1,0 +1,55 @@
+{
+  "user_id": "123456",
+  "role": "software engineer",
+  "created_at": "25-11-04T23:00:46Z",
+  "questions": {
+    "background": [
+      "What programming languages are you most comfortable using, and why?",
+      "Can you describe a coding project you worked on during your studies or in your free time?",
+      "How do you approach debugging a piece of code?",
+      "What development tools or environments are you familiar with?",
+      "Have you ever worked on a team project? What was your role, and what did you learn from it?",
+      "Can you explain the concept of object-oriented programming and provide an example?",
+      "How do you prioritize your tasks when working on multiple projects?",
+      "What do you understand about version control systems, and have you used any?",
+      "How do you stay current with new technologies or programming languages?",
+      "Can you explain the difference between a stack and a queue?",
+      "How do you ensure code quality and maintainability in your projects?",
+      "What is your experience with databases, and what types have you used?",
+      "Can you provide an example of how you have used algorithms or data structures in your projects?",
+      "What excites you most about pursuing a career in software engineering?"
+    ],
+    "technical": [
+      "What is the difference between a stack and a queue?",
+      "Can you explain what a binary tree is and how it differs from a binary search tree?",
+      "How do you prevent a race condition in a multithreaded application?",
+      "What is the purpose of version control systems, and can you name a few popular ones?",
+      "What is a RESTful API, and how does it differ from SOAP?",
+      "Can you describe what responsive design is and why it is important in web development?",
+      "What is the difference between synchronous and asynchronous programming?",
+      "How does garbage collection work in languages like Java or C#?",
+      "What are the four main HTTP methods, and what does each one do?",
+      "Can you explain the purpose of a build tool in software development?",
+      "How would you optimize a slow-running SQL query?",
+      "What is a JSON object, and how is it typically used in web applications?",
+      "Can you explain the concept of \"inheritance\" in programming?"
+    ],
+    "situational": [
+      "Describe a time when you worked on a team project. What was your role, and how did you ensure effective communication?",
+      "Can you provide an example of a challenging bug you encountered in your code? How did you go about troubleshooting it?",
+      "Tell me about a time when you had to learn a new programming language or framework quickly. What steps did you take to get up to speed?",
+      "Imagine you are given a task with a tight deadline but find that you don't fully understand the requirements. What would you do next?",
+      "Share an experience where you had to work with someone whose technical skills were not at the same level as yours. How did you handle the situation?",
+      "Have you ever received constructive criticism on your code? How did you respond, and what changes did you make as a result?",
+      "Describe a project where you had to balance multiple priorities. How did you manage your time and tasks?",
+      "Give an example of a situation where you had to advocate for an idea or solution you believed in. What was the outcome?",
+      "Tell me about a time when you encountered a disagreement with a teammate regarding a technical solution. How did you resolve it?",
+      "Can you provide an example of when you had to debug a system that was working in production? What steps did you take?",
+      "Describe a project where you had to consider user experience while designing a solution. What factors did you prioritize?",
+      "Tell me about a time you had to collaborate with non-technical stakeholders. How did you ensure their requirements were met?",
+      "Share an experience where you had to adapt your work based on feedback from a code review. What specific changes did you implement?",
+      "Describe a scenario where you had to implement a feature without having all the necessary documentation. How did you approach it?",
+      "Can you recall an experience in which you had to adhere to a coding standard or guideline? What impact did it have on your work?"
+    ]
+  }
+}
