@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      target: backend
+    env_file:
+      - .env
+    ports:
+      - "8081:8080" # <-- I've changed this from 8080
+

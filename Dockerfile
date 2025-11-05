@@ -13,7 +13,7 @@ RUN npm run build
 
 
 # --- Stage 2: Build the FastAPI Backend ---
-FROM python:3.10-slim
+FROM python:3.10-slim AS backend
 WORKDIR /app
 
 # Set the port for Cloud Run (Gunicorn will use this)
@@ -29,9 +29,9 @@ COPY backend/ .
 # --- The Magic Step (Unchanged) ---
 # Copy the built frontend files from Stage 1 into
 # the backend's "static" folder.
-COPY --from=frontend-builder /app/frontend/build ./static
+# COPY --from=frontend-builder /app/frontend/build ./static
 
 # --- Updated Command for FastAPI ---
 # We use gunicorn as the process manager and tell it to use
 # uvicorn's worker class for running the ASGI app.
-CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "app:app", "--bind", "0.0.0.0:8080"]
+CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "app.app:app", "--bind", "0.0.0.0:8080"]
