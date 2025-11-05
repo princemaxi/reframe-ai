@@ -45,7 +45,6 @@ jobs:
       - name: Build and Push Docker Image
         run: |
           docker build \
-            --target backend \
             -t ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REGISTRY_NAME }}/${{ env.SERVICE_NAME }}:${{ github.sha }} \
             .
           docker push ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REGISTRY_NAME }}/${{ env.SERVICE_NAME }}:${{ github.sha }}
