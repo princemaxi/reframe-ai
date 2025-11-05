@@ -9,7 +9,7 @@ on:
 env:
   PROJECT_ID: "ai-hackathon-team-beta"       # Your Google Cloud Project ID
   SERVICE_NAME: "reframeai"                 # The name you gave your Cloud Run service
-  REGION: "eu-west2"                        # The region (e.g., eu-west2)
+  REGION: "europe-west2"                        # The region (e.g., eu-west2)
   REGISTRY_NAME: "reframeai-repo"             # The name of your Artifact Registry
 # -------------------------------------
 
